@@ -39,13 +39,22 @@ nothing to commit, working tree clean
 
 We can create files
 touch <file name>
-
 ********** note to allow GIT track the file wenn need to add and commit to the local Git hub
 
-git add 
+git add <file name>
+The above entry flags the file to be tracked by Git ********* we also have to commit the file to git
+git commit -m "add discription"
+*******************************************
+dapoa@DAPO-HOME MINGW64 /d/_Reponew/MeLearnGit (main)
+$ git commit -m "addind file to Github"
+[main d58615a] addind file to Github
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 4readme.txt
+************************************************
 
-git commit
+git log
 
+allow you see details oof wht is bring tracked by git
 git push
 
 git fetch
