@@ -26,8 +26,23 @@ Resolving deltas: 100% (2/2), done.
 
 GO to the directory on the Windows and observe that all files have not been copied to the local PC later we will sync changes
 
+Close the emulator and go to the directory on you local PC click in direcory and open with GIT emulator
+You should see output below
+********************************
+dapoa@DAPO-HOME MINGW64 /d/_Reponew/MeLearnGit (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+nothing to commit, working tree clean
 
-git add
+****************************************************
+
+We can create files
+touch <file name>
+
+********** note to allow GIT track the file wenn need to add and commit to the local Git hub
+
+git add 
 
 git commit
 
