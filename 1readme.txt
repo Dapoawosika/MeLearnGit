@@ -66,10 +66,16 @@ git push
 Pushes the changes made on local machine to github.com
 
 git fetch
-
+pulls data from you online repo but does not automitically update the local repo just pulls a copy 
+You the need to "git merge" to merge the files in to your local repo
 
 git pull
 
+Git PULL aand FETCH pull data from github.com to your local GIT
+
 git merge
+
+git add .
+This add new files to git repo without the file name
 
 
