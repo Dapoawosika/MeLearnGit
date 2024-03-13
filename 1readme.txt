@@ -1,4 +1,10 @@
 hello world
+After installing GIT dsimulator on local cmachind we need to provide some usere information
+
+git config --global user.email "email address"
+git config --global user.name "user name"
+
+The above associates you with the git account on GIT hub
 To allow us work locally we can clone our Repository on github.com allowing us make a local copy
 Cloning need to be done just once then we can do thinf link
 Create a folder on your workstation -> right click and select "Open git Bash here"
@@ -55,9 +61,12 @@ $ git commit -m "addind file to Github"
 git log
 
 allow you see details oof wht is bring tracked by git
+
 git push
+Pushes the changes made on local machine to github.com
 
 git fetch
+
 
 git pull
 
