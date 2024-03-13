@@ -76,6 +76,8 @@ Git PULL aand FETCH pull data from github.com to your local GIT
 git merge
 
 git add .
-This add new files to git repo without the file name
+This add new files / changes to git repo without the need for individual file name file name
 
+git commit -m "message text"  
 
+Commits changes to GIT repo
